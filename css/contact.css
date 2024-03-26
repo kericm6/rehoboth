@@ -212,7 +212,7 @@ footer .container img {
         display: none;
     } */
     .bloc_page header {
-        height: 30vh;
+        height: 40vh;
 
     }
 
@@ -223,7 +223,7 @@ footer .container img {
 
     .bloc_page header .ban_text .row .col h2 {
         text-align: center;
-        font-size: 35px;
+        /* font-size: 35px; */
     }
 
     .bloc_page header nav .sidebar {
@@ -239,7 +239,7 @@ footer .container img {
     }
 
     section.autre .container .row .col a .card {
-        height: 20vh;
+        height: 30vh;
         min-width: 80vw;
         max-width: 80vw;
     }
