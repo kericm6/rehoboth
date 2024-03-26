@@ -1,0 +1,464 @@
+@media only screen and (min-width: 320px)  and (max-width:480px) {
+    * {
+        font-size: 13px;
+    }
+    .container-md{
+        padding: 0;
+        margin: 0;
+    }
+
+    
+    .bloc_page header {
+        height: 20vh;
+        background-position: right;
+    }
+
+    .bloc_page header nav .sidebar{
+        width: 100%;
+    }
+
+    .bloc_page header nav ul li a i.menu{
+        display: block;
+    }
+
+    .bloc_page header nav .hideOnMoblie{
+        display: none;
+    }
+
+    .bloc_page h2 {
+        font-size: 20px;
+    }
+
+
+    .bloc_page header .ban_text .row .col{
+        width: 100%;
+        display: flex;
+        justify-content: center;    
+        /* align-items: center; */
+    }
+    .bloc_page header .ban_text .row{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: -50px;
+        /* justify-content: center; */
+     }
+
+     .bloc_page section.about{
+        width: 90%;
+        margin: 0 auto;
+     }
+
+    .bloc_page section.about .container-md .row {
+        display: block;
+    }
+
+    .bloc_page section.objectifs .container .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bloc_page section.services .container .row {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .bloc_page section.services .container .row .services_texte h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .bloc_page section.services .container .row .col img {
+        display: none;
+    }
+
+    section.illustration {
+        height: 30vh;
+
+    }
+
+    section.illustration p,
+    section.illustration p span {
+        font-size: 25px;
+    }
+
+    section.autre .container .row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    section.autre .container .row .col .card {
+        height: 15vh;
+        width: 100%;
+    }
+
+    section.autre .container .row .col .card .icon i {
+        font-size: 25px;
+    }
+
+    section.autre .container .row .col .card .card_text {
+        font-size: 15px;
+    }
+    .bloc_page section.objectifs .container .obj_container .col{
+        width: 100%;
+        text-align: justify;
+    }
+
+    .bloc_page section.objectifs .container .obj_container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    section.formation .container-md .row {
+        display: flex;
+        align-items: center !important;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    section.formation .container-md .row .row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+
+    section.formation .container-md .row img {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    section.localisation .container .row {
+        display: block;
+    }
+
+    section.localisation .container .row .col {
+        width: 100%;
+    }
+
+    section.localisation .container iframe {
+        height: 25vh;
+    }
+}
+
+@media only screen and (min-width:481px) and (max-width: 560px){
+    * {
+        font-size: 13px;
+    }
+
+    
+    .bloc_page header {
+        height: 30vh;
+        background-position: right;
+    }
+    .bloc_page header .ban_text .row{
+       display: flex;
+       flex-direction: column-reverse;
+       align-items: center;
+       justify-content: center;
+    }
+    .bloc_page header .ban_text .row .col{
+        width: 100%;
+        display: flex;
+        justify-content: center;    
+        
+    }
+
+    .bloc_page header nav ul li a i.menu{
+        display: block;
+    }
+    .bloc_page header nav .hideOnMoblie{
+        display: none;
+    }
+    
+
+    .bloc_page section.about .container-md .row {
+        display: block;
+    }
+    .bloc_page section.about .container-md .row .col h2 {
+        margin-top: 15px;
+    }
+    .bloc_page section.objectifs .container .obj_container .col{
+        width: 100%;
+        text-align: justify;
+    }
+    .bloc_page section.objectifs .container .obj_container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .bloc_page section.services .container .row {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .bloc_page section.services .container .row .services_texte h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .bloc_page section.services .container .row .col img {
+        display: none;
+    }
+
+    section.illustration {
+        height: 45vh;
+
+    }
+    section.illustration p,
+    section.illustration p span {
+        font-size: 25px;
+    }
+    section.autre .container .row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    section.formation .container-md .row {
+        display: flex;
+        align-items: center !important;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    section.formation .container-md .row .row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+    section.formation .container-md .row img {
+        margin-top: 20px;
+        width: 100%;
+    }
+}
+
+@media  (min-width: 561px) and (max-width: 767px){
+    * {
+        font-size: 15px;
+    }
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+        width: 90% !important;
+        padding: 0 0 ;
+        margin: 0 auto !important;
+    }
+
+    
+    .bloc_page header {
+        height: 30vh;
+        background-position: right;
+    }
+    .bloc_page header .ban_text .row{
+       display: flex;
+       flex-direction: column-reverse;
+       align-items: center;
+       justify-content: center;
+    }
+    .bloc_page header .ban_text .row .col{
+        width: 100%;
+        display: flex;
+        justify-content: center;    
+        
+    }
+    .bloc_page header nav ul li a i.menu{
+        display: block;
+    }
+    .bloc_page header nav .hideOnMoblie{
+        display: none;
+    }
+    .bloc_page section.about .container-md .row {
+        display: block;
+    }
+    .bloc_page section.about .container-md .row .col h2 {
+        margin-top: 15px;
+    }
+    .bloc_page section.services .container .row .services_texte h2 {
+        width: 100%;
+        text-align: center;
+    }
+    section.illustration {
+        height: 50vh;
+    }
+    section.illustration p,
+    section.illustration p span {
+        font-size: 19px;
+    }
+    .bloc_page section.objectifs .container .obj_container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .bloc_page section.objectifs .container .obj_container .col .texte p{
+        margin-top: 5px;
+        text-align: left;
+        width: 100%;
+    } 
+    .bloc_page section.services .container .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .bloc_page section.services .container .row .services_texte h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .bloc_page section.services .container .row .col img {
+        display: none;
+    }
+    section.autre .container .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* row-gap: 20px; */
+    }
+   
+    section.autre .container .row .col  {
+        width: 100%;
+    }
+    section.autre .container .row .col .card{
+        height: 20vh;
+    }
+    section.formation .container-md .row {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        row-gap: 25px;
+        justify-content: center;
+        align-content: center;
+    }
+   
+    section.formation .container-md .row .row{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    section.formation .container-md .row .row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+    section.localisation .container .row{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    section.localisation .container .row {
+        display: block;
+    }
+
+    section.localisation .container .row .col {
+        width: 100%;
+    }
+
+    section.localisation .container iframe {
+        height: 35vh;
+    }
+}
+
+@media (min-width :768px) and (max-width: 991px){
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+        width: 90% !important;
+        padding: 0 0 ;
+        margin: 0 auto !important;
+    }
+
+    .bloc_page header {
+        height: 30vh;
+        /* background-position: right; */
+    }
+    .ac_text2 {
+        text-align: center;
+        width: 200% !important;
+        transform: translatex(-50%);
+        margin-top: 50px;
+    }
+    /* objectifs*/ 
+
+    .bloc_page section.objectifs .container .obj_container{
+       display: flex;
+       flex-flow: column;
+       align-items: center;
+    } 
+   
+    section.services .container .row .col img{
+        height: 100%;
+    }
+    section.illustration{
+        height: 30vh;
+    }
+    section.autre .container .row .col .card{
+        height: 20vh;
+    }
+    section.formation .container-md .row{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    section.formation .container-md .row .col{
+        width: 100%;
+    }
+    section.formation .container-md .row .row{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    section.localisation .container .row{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    section.localisation .container iframe {
+        height: 25vh;
+    }
+    section.localisation .container .row .col{
+        width: 100%;
+    }
+    section.autre .container .row .col{
+        width: 100%;
+    }
+    /* section.autre .container .row .col .card{
+        height: 40vh;
+    } */
+    section.autre .container .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* row-gap: 20px; */
+    }
+    
+}
+
+@media screen and (min-width: 992px){
+    .bloc_page header {
+        height: 70vh;
+    }
+    .bloc_page section.objectifs .container .row .col .ob_icon .col{
+        display: flex;
+        align-items:  start;
+        justify-content: center;
+    }
+    section.services .container .row .col img{
+        height: 100%;
+    }
+
+    section.illustration{
+        height: 65vh;
+    }
+    section.autre .container .row .col .card{
+        height: 30vh;
+      }
+      section.formation .container-md .row .row{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+
+/* gestion de la navbar*/ 
+
+

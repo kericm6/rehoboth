@@ -1,0 +1,345 @@
+@font-face {
+    src: url(../fonts/Montserrat-Medium.otf);
+    font-family: 'font';
+}
+
+/* @font-face{
+    src: url(../fonts/Nunito-Regular.ttf);
+    font-family: 'font1';
+} */
+
+@font-face {
+    src: url(../fonts/Montserrat-ExtraBold.otf);
+    font-family: 'font2';
+}
+
+:root {
+    /* --vert: rgb(4, 88, 10); */
+    --jaune: rgb(255, 192, 0);
+    --blanc: #fff;
+    --black: #000;
+    --cendre: #eee;
+    --bleu: #105191;
+    --vert: #066b63;
+}
+
+* {
+    font-family: font;
+    
+}
+
+ 
+
+
+
+body {
+    background-color: #eee;
+}
+
+.bloc_page h2 {
+    font-family: 'font2';
+    color: var(--vert);
+}
+
+.bloc_page header {
+    background: linear-gradient(rgba(0, 0, 0, 0.575), rgba(0, 0, 0, 0.342)), url(../images/bm.jpg);
+    /* padding: 0 100px; */
+    height: 75vh;
+    background-position: calc(-230px);
+    background-size: cover;
+    /* background-repeat: no-repeat;h */
+    width: 100% !important;
+}
+
+.bloc_page header nav ul li {
+    margin-right: 30px;
+}
+
+.bloc_page header nav ul li a.active {
+    font-weight: bold;
+    color: var(--jaune);
+}
+
+.bloc_page header nav ul li a {
+    text-decoration: none;
+    color: var(--blanc);
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+    transition: .4s;
+}
+
+.bloc_page header nav ul li a i.menu{
+    font-size: 25px;
+    display: none;
+}
+
+.bloc_page header nav ul li a:hover {
+    color: var(--jaune);
+    transition: .4s ease;
+}
+
+/*Sidebar*/
+.bloc_page header nav .sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: none;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: #0000008c;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px) !important;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+.bloc_page header nav .sidebar li{
+    margin-top: 15px;
+}
+.bloc_page header nav .sidebar li a{
+    padding: 0 30px;
+}
+.bloc_page header nav .sidebar li a i{
+    font-size: 35px;
+}
+
+/*bannière*/
+
+.bloc_page header .ban_text {
+    margin-top: 40px;
+}
+
+.bloc_page header .ban_text .row .col h2 {
+    color: var(--jaune);
+    font-family: font2;
+    margin-top: 50px;
+}
+
+.bloc_page header .ban_text .row .col li {
+    color: var(--blanc);
+    list-style: square;
+    margin-top: 15px;
+}
+
+.bloc_page header .ban_text .row .col li::marker {
+    color: var(--jaune);
+}
+
+.bloc_page header .ban_text .row .col p span {
+    color: var(--jaune);
+    font-family: 'font2';
+}
+
+/*fin banniere*/
+
+
+/*about*/
+
+.bloc_page section.about .container-md .row .col h2 {
+    font-family: 'font2';
+    color: var(--vert);
+}
+
+.bloc_page section.about .container-md .row .col p {
+    text-align: justify;
+}
+
+.bloc_page section.about .container-md .row .col a {
+    color: var(--vert);
+    /* text-decoration: none; */
+}
+
+/* fin about*/
+
+/*section objectifs*/
+.bloc_page section.objectifs{
+    background: var(--blanc);
+    padding: 1.5rem 1.5rem;
+}
+.bloc_page section.objectifs .container .obj_container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.bloc_page section.objectifs .container .obj_container .col{
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    width: 80%;
+
+}
+.bloc_page section.objectifs .container .obj_container .col .number h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--jaune);
+    /* height: 50vh; */
+}
+.bloc_page section.objectifs .container .obj_container{
+    margin-top: 25px;
+}
+.bloc_page section.objectifs .container .obj_container .col .texte p{
+    margin-top: 5px;
+    text-align: left;
+    width: 85%;
+} 
+
+.container hr{
+    background-color: transparent !important;
+}
+
+/*activites principales --- services */
+.bloc_page section.services {
+    background: #eee;
+    /* padding: 80px 50px; */
+}
+
+.bloc_page section.services .container .row .services_texte ul li {
+    margin-top: 19px;
+}
+
+.bloc_page section.services .container .row .services_texte ul li i {
+    font-size: 20px;
+    color: var(--jaune);
+}
+
+
+
+
+section.illustration {
+    background: linear-gradient(rgba(6, 107, 99, 0.705), rgba(6, 107, 99, 0.562)), url(../images/img5.jpg);
+    height: 65vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+section.illustration p {
+    font-family: 'font2';
+    font-size: 35px;
+    text-align: center;
+    color: var(--blanc);
+}
+
+section.illustration p span {
+    font-family: 'font2';
+    color: var(--jaune);
+}
+
+section.illustration a {
+    color: var(--blanc);
+    border: 1px solid var(--blanc);
+    font-family: 'font2';
+}
+
+section.illustration a:hover {
+    background-color: var(--blanc);
+    color: var(--vert);
+}
+
+
+/* section autre services*/
+
+
+section.autre .container .row .col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.autre .container .row .col .card {
+    border: none;
+    padding: 15px 30px;
+    height: 20vh;
+    box-shadow: 0 3px 5px #ccc;
+}
+
+section.autre .container .row .col .card:hover {
+    background: var(--vert);
+    transition: all .4s;
+}
+
+section.autre .container .row .col .card:hover .icon i {
+    color: var(--jaune);
+}
+
+section.autre .container .row .col .card p {
+    text-align: justify;
+}
+
+section.autre .container .row .col .card:hover p {
+    color: var(--blanc);
+}
+
+section.autre .container .row .col .card .icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+section.autre .container .row .col .card .icon i {
+    font-size: 40px;
+    color: var(--vert);
+}
+
+/*fin section autres services*/
+
+
+section.formation {
+    background: var(--blanc);
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+section.formation .container-md .row .col ul li {
+    margin-left: 15px;
+}
+section.formation .container-md .row .col ul li i{
+    font-weight: bold;
+    color: var(--jaune);
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+section.formation a.btn {
+    color: var(--vert);
+    border: 1px solid var(--vert);
+    font-family: 'font2';
+    margin-left: 15px;
+}
+
+section.formation a.btn:hover {
+    background-color: var(--vert);
+    color: var(--blanc);
+}
+
+section.localisation .container iframe {
+    width: 100%;
+    height: 50vh;
+    margin-top: 35px;
+}
+
+
+
+section.localisation .container .row .col p i {
+    font-size: 25px;
+    color: var(--jaune);
+    display: inline-block;
+    margin-right: 15px;
+}
+
+footer {
+    background: var(--vert);
+    color: var(--blanc);
+
+}
+
+
+footer .container img {
+    width: 75px;
+}
+
+
+
+
+
